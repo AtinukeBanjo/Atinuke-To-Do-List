@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+body{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    height: 70vh;
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color: rgba(185, 29, 29, 0.671);
+}
+section{
+    width: 50vw;
+    height: 20vh;
+    border-bottom: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#taskList{
+ color: white;
+ height: 50vh;
+ display: flex;
+ flex-direction: column;
+ flex-wrap: wrap;
+}
+#taskList div{
+    background-color: black;
+    color: white;
+    width: 40%;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    flex-direction: row;
+    border-radius: 10px;
+
+}
+#taskList div li{
+    list-style: none;
+}
+#taskList ol{
+    flex-wrap: wrap;
+    height: 30vh;
+}
+#edit{
+    padding: 5px;
+    margin-right: 5px;
+    color: black;
+    background-color: rgb(128, 229, 128);
+    border-radius: 5px;
+}
+#delete{
+    padding: 5px;
+    margin-right: 5px;
+    color: black;
+    background-color: rgb(238, 132, 132);
+    border-radius: 5px; 
+}
+#taskInput{
+    box-sizing: border-box;
+    height: 50px;
+    width: 20vw;
+    border-radius: 10px;
+    color: black;
+    font: 25px;
+    background-color: aliceblue;
+    padding-left: 10px;
+
+}
+
+#taskInput:focus, #taskInput:active{
+    border:2px solid blue;
+    outline: blue;
+}
+
+#mySubmit{
+    padding: 15px;
+    border-radius: 5px;
+    background-color: aliceblue;
+    cursor: pointer;
+}
+#todo{
+    color: white;
+    font-weight: 100px;
+}
